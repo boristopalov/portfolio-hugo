@@ -178,7 +178,6 @@ button.workButtonActive {
 }
 
 .skillGrid {
-  margin-left: 1em;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
