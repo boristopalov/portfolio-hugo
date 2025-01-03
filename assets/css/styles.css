@@ -174,19 +174,17 @@ button.workButtonActive {
 }
 
 .skillGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 0.5em;
+  margin-left: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1.2em;
 }
 
-.skillButton {
-  border: 1.5px solid var(--accent-color);
-  padding: 0.5rem 0;
-  border-radius: 8px;
-  text-align: center;
-  background-color: #121212;
-  box-shadow: #121212 4px 4px 0 0, var(--accent-color) 4px 4px 0 1.5px;
+.skill {
+  padding-bottom: 0.25em;
   font-weight: 500;
+  border-bottom: 2px solid var(--accent-color);
 }
 
 .container h1 {
@@ -207,9 +205,8 @@ button.workButtonActive {
 }
 
 .headerLeft h1 {
-  margin-top: 1rem;
+  margin-top: 5px;
   margin-bottom: 0;
-  border-bottom: none;
 }
 
 .headerRight {
@@ -378,4 +375,29 @@ button.workButtonActive {
 * {
   scrollbar-width: thin;
   scrollbar-color: #848486 transparent;
+}
+
+@media (max-width: 768px) {
+  .work-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .work-header .dates {
+    color: #848486;
+    font-size: 0.9rem;
+  }
+
+  .work-title-group {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 0.25rem;
+  }
+
+  .edu-title-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
 }
