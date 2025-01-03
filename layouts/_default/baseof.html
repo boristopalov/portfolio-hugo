@@ -6,8 +6,7 @@
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     {{ $styles := resources.Get "css/styles.css" }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
-    {{ $js := resources.Get "js/main.js" | resources.Minify }}
-    <script src="{{ $js.RelPermalink }}"></script>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   </head>
   <body>
     {{ block "main" . }}{{ end }}
