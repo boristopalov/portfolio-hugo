@@ -384,7 +384,6 @@ button.workButtonActive {
 @media (max-width: 768px) {
   .work-header {
     flex-direction: column;
-    gap: 0.5rem;
   }
 
   .work-header .dates {
@@ -396,7 +395,6 @@ button.workButtonActive {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    gap: 0.25rem;
   }
 
   .edu-title-group {
