@@ -1,5 +1,5 @@
 - title: "abby"
-  description: "An LLM music production assistant that makes suggestions as you produce. Abby is able to create new tracks and instruments, device chains, and more."
+  description: "An LLM music production assistant for Ableton"
   ghUrl: "https://github.com/boristopalov/abby"
 
 - title: "petri"
@@ -15,6 +15,6 @@
   ghUrl: "https://github.com/boristopalov/wordleversus"
 
 - title: "spotseek"
-  description: "Client for a distributed peer-to-peer file sharing protocol that integrates with the Spotify API to allow users to download Spotify tracks and playlists."
+  description: "Golang client for Soulseek, a distributed peer-to-peer file sharing protocol."
   ghUrl: "https://github.com/boristopalov/spotseek"
 
