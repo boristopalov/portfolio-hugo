@@ -1,5 +1,5 @@
 - title: "abby"
-  description: "An LLM music production assistant for Ableton"
+  description: "An LLM music production assistant for Ableton that can create new device chains and make suggestions as you produce."
   ghUrl: "https://github.com/boristopalov/abby"
 
 - title: "petri"
@@ -7,7 +7,7 @@
   ghUrl: "https://github.com/boristopalov/petri"
 
 - title: "locallm"
-  description: "Browser-based chat app for an Ollama LLM agent that can search the web and cite its sources, store data in a vector database, and query the vector database for information (RAG)."
+  description: "Fully local chat app for an LLM agent that searches the web, cites its sources, and stores information in a vector database (RAG)."
   ghUrl: "https://github.com/boristopalov/locallm"
 
 - title: "wordle-versus"
