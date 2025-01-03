@@ -4,7 +4,10 @@
   --accent-color-dim: rgba(129, 140, 248, 0.75);
 }
 
-html,
+html {
+  font-size: 16px;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -12,6 +15,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #121212;
   color: #fff;
+  line-height: 1.5;
 }
 
 a {
@@ -28,10 +32,10 @@ ul {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 56.25rem;
   display: flex;
   justify-content: center;
-  margin: 4em 2em;
+  margin: 4rem 2rem;
 }
 
 .center {
@@ -273,13 +277,13 @@ button.workButtonActive {
 }
 
 .work-title {
-  font-size: large;
+  font-size: 1rem;
   font-weight: 500;
 }
 .company {
   color: #848486;
   font-weight: 400;
-  font-size: large;
+  font-size: 1rem;
 }
 
 .dates {
