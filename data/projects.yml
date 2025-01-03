@@ -1,0 +1,19 @@
+- title: "abby"
+  description: "An LLM music production assistant that makes suggestions as you produce. Abby is able to create new tracks and instruments, device chains, and more."
+  ghUrl: "https://github.com/boristopalov/abby"
+
+- title: "petri"
+  description: "A framework for orchestrating multi-agent experiments in a user-controlled experiment setting."
+  ghUrl: "https://github.com/boristopalov/petri"
+
+- title: "locallm"
+  description: "Browser-based chat app for an Ollama LLM agent that can search the web and cite its sources, store data in a vector database, and query the vector database for information (RAG)."
+  ghUrl: "https://github.com/boristopalov/locallm"
+
+- title: "spotseek"
+  description: "Client for a distributed peer-to-peer file sharing protocol that integrates with the Spotify API to allow users to download Spotify tracks and playlists."
+  ghUrl: "https://github.com/boristopalov/spotseek"
+
+- title: "wordle-versus"
+  description: "Multiplayer Wordle!"
+  ghUrl: "https://github.com/boristopalov/wordleversus"

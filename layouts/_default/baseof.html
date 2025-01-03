@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ .Title }}</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    {{ $styles := resources.Get "css/styles.css" }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+    {{ $js := resources.Get "js/main.js" | resources.Minify }}
+    <script src="{{ $js.RelPermalink }}"></script>
+  </head>
+  <body>
+    {{ block "main" . }}{{ end }}
+  </body>
+</html>

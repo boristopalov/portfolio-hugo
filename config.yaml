@@ -1,0 +1,13 @@
+baseURL: "https://boristopalov.com"
+languageCode: "en-us"
+title: "Boris Topalov"
+enableRobotsTXT: true
+
+params:
+  description: "Boris Topalov - Analyst & Developer"
+  social:
+    github: "https://github.com/boristopalov"
+    linkedin: "https://linkedin.com/in/boristopalov"
+    email: "boristopalov1@gmail.com"
+
+staticDir: ["static", "assets"]
